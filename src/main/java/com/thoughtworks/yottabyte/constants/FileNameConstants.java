@@ -9,7 +9,8 @@ public enum FileNameConstants {
   VEHICLES,
   VEHICLES_COUNT,
   OLD_VEHICLES,
-  VEHICLES_REPAIRS;
+  VEHICLES_REPAIRS,
+  VEHICLES_REPAIRS_OUTPUT;
 
   public String columnSeparator() {
     return this.toString() + "." + COLUMN_SEPARATOR;
@@ -20,7 +21,7 @@ public enum FileNameConstants {
   }
 
   public String distributedCacheLocation() {
-    return "./" + this.toString();
+    return this.toString() + "." + PATH + ".CACHE";
   }
 
   public String referenceDate() {

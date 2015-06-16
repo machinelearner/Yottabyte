@@ -1,0 +1,6 @@
+bus,ta1010,service raw water pump,  rupees,1900
+bus,ta0x,check at 5000 hours of usage,  rupees,1900
+truck,g101,paint , dollars,375.0
+truck,g102,check for faults , pounds,75.0
+car,a103,add parking sensors , pounds,15
+car,a10393,upgrade dashboard , dollars,3
